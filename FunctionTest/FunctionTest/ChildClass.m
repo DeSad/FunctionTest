@@ -10,8 +10,13 @@
 
 @implementation ChildClass
 
+-(NSString *)saySomeNumberString{
+    return @"something";
+}
+
 -(NSString *)saySomething{
-    return @"Something!";
+    
+    return [super saySomething];
 }
 
 @end

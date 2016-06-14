@@ -17,5 +17,6 @@
 -(void)say:(NSString *)string and:(NSString *)string2;
 -(void)say:(NSString *)string and:(NSString *)string2 andAfterThat:(NSString *)string3;
 -(NSString *)saySomething;
+-(NSString *)saySomeNumberString;
 
 @end
