@@ -10,6 +10,14 @@
 
 @implementation ParentClass
 
+-(instancetype)init{
+    self = [super init];
+    if (self) {
+        NSLog(@"Instance of parent class is created");
+    }
+    return self;
+}
+
 +(void)whoAreYou{
     NSLog(@"I'm ParentClass ");
 }

@@ -10,8 +10,16 @@
 
 @implementation ChildClass
 
+-(instancetype)init{
+    self = [super init];
+    if (self) {
+        NSLog(@"Instance child class is created");
+    }
+    return self;
+}
+
 -(NSString *)saySomeNumberString{
-    return @"something";
+    return @"Something";
 }
 
 -(NSString *)saySomething{

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ParentClass.h"
 #import "ChildClass.h"
 
 @interface AppDelegate ()
@@ -19,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    ParentClass * parent = [[ParentClass alloc] init];
+    ChildClass * parent = [[ChildClass alloc] init];
     [parent sayHello];
     
     [parent say:@"How are you ?"];
